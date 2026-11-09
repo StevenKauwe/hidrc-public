@@ -1,0 +1,29 @@
+# hidrc config, captured from this Mac. Commented lines are left as macOS has them.
+
+[keyboard]
+key_repeat_ms = 17  # time between repeats; 1 tick of 1/60 s, the floor (System Settings stops at 33)
+initial_delay_ms = 200  # hold time before repeating starts; below the slider minimum of 250
+# press_and_hold = true  # false = holding a key repeats instead of showing accents (not set; macOS default)
+# fn_keys_standard = false  # true = F1-F12 without holding fn (not set; macOS default)
+
+# [keyboard.remap]
+# caps_lock = "escape"
+
+[mouse]
+linear = true  # true = no pointer acceleration
+speed = 1.0  # tracking speed 0.0-3.0; with linear = true, 1.0 = exact 1:1 (measured)
+# scroll_speed = 0.3125  # wheel speed 0.0-1.0 (not set; macOS default)
+# scroll_reverse = true  # flip wheel direction on mice only (trackpad keeps scroll.natural)
+# scroll_lines = 3  # fixed lines per wheel notch, no wheel acceleration
+
+[trackpad]
+# speed = ?  # tracking speed 0.0-3.0 (not set; macOS default)
+tap_to_click = false  # 
+three_finger_drag = false  # 
+
+[scroll]
+natural = false  # "natural" direction; global for trackpad and mouse
+
+# Any other preference: [defaults."<domain>"] key = value
+# [defaults."com.apple.dock"]
+# autohide = true

@@ -1,0 +1,15 @@
+[package]
+name = "hidrc"
+version = "0.1.0"
+edition = "2021"
+description = "Your macOS keyboard, mouse and trackpad settings as a config file in git"
+
+[dependencies]
+core-foundation = "0.10"
+core-foundation-sys = "0.8"
+serde = { version = "1", features = ["derive"] }
+toml = "0.8"
+
+[profile.release]
+lto = true
+strip = true
